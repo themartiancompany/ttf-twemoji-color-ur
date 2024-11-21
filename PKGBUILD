@@ -4,11 +4,12 @@
 pkgname=ttf-twemoji-color
 pkgver=15.1.0
 pkgrel=1
-pkgdesc=(
+_pkgdesc=(
   "A color and B&W emoji SVG-in-OpenType font"
   "by Twitter with support for ZWJ, skin tone"
   "modifiers and country flags."
 )
+pkgdesc="${_pkgdesc[*]}"
 arch=(
   'any'
 )
